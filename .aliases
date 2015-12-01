@@ -150,4 +150,5 @@ alias reload="exec $SHELL -l"
 
 # ANDY
 alias be="bundle exec"
-alias lw="cd ~/projects/liveworld"
+alias lw="cd ~/liveworld"
+alias knife="BUNDLE_GEMFILE=/Users/apickler/liveworld/infrastructure/Gemfile bundle exec knife"

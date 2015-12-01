@@ -244,3 +244,12 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# ANDY
+function lmenv() {
+  export MODSERVER_URL="http://phoenix.liveworld.com";
+  export MODSERVER_URL_AND_PATH="http://phoenix.liveworld.com/EndPointClientAxis2/rest";
+  export PACMAN_URL="http://pacman.liveworld.com";
+  export PEYOTE_URL="http://crs-dev.liveworld.com";
+  export RAILS_APP_DIRECTORY="/Users/apickler/liveworld/leatherman";
+}
