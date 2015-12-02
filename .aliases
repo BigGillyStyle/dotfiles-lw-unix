@@ -149,6 +149,12 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias reload="exec $SHELL -l"
 
 # ANDY
+alias psx="ps aux | grep $1"
 alias be="bundle exec"
 alias lw="cd ~/liveworld"
+alias lea="cd ~/liveworld/leatherman"
+alias pho="cd ~/liveworld/phoenix"
+alias pey="cd ~/liveworld/peyote"
+alias pac="cd ~/liveworld/pacman"
 alias knife="BUNDLE_GEMFILE=/Users/apickler/liveworld/infrastructure/Gemfile bundle exec knife"
+alias res="sudo apachectl restart"
