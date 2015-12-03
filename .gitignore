@@ -44,3 +44,5 @@ Thumbs.db
 # Grails "temporary" build files #
 ##################################
 /target
+
+.rbenv-gemsets
