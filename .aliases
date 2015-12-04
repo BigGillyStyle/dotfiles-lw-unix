@@ -150,6 +150,9 @@ alias reload="exec $SHELL -l"
 
 # ANDY
 alias psx="ps aux | grep $1"
+alias clearlogs="rm -rf log/*"
+
+alias clearalllogs="rm -rf ~/liveworld/leatherman/log/* && rm -rf ~/liveworld/phoenix/log/* && rm -rf ~/liveworld/peyote/log/* && rm -rf ~/liveworld/pacman/log/*"
 alias be="bundle exec"
 alias lw="cd ~/liveworld"
 alias lea="cd ~/liveworld/leatherman"
@@ -157,4 +160,4 @@ alias pho="cd ~/liveworld/phoenix"
 alias pey="cd ~/liveworld/peyote"
 alias pac="cd ~/liveworld/pacman"
 alias knife="BUNDLE_GEMFILE=/Users/apickler/liveworld/infrastructure/Gemfile bundle exec knife"
-alias res="sudo apachectl restart"
+alias res="sudo apachectl stop && clearalllogs && sudo apachectl start"
