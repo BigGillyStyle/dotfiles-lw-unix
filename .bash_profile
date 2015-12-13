@@ -48,4 +48,5 @@ complete -W "NSGlobalDomain" defaults;
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
 # ANDY
+# enable rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
