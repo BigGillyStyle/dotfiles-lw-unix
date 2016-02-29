@@ -246,6 +246,10 @@ function tre() {
 }
 
 # ANDY
+
+# https://code.visualstudio.com/Docs/editor/setup
+function code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args "$@"; }
+
 function lmenv() {
   export MODSERVER_URL="http://phoenix.liveworld.com";
   export MODSERVER_URL_AND_PATH="http://phoenix.liveworld.com/EndPointClientAxis2/rest";
