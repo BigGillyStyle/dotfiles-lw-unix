@@ -50,3 +50,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # ANDY
 # enable rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+export NVM_DIR="/Users/apickler/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
